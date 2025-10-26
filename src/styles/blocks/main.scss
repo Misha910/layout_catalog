@@ -3,9 +3,9 @@
 
 .main {
   display: grid;
-  gap: 48px 46px;
+  gap: $gap-vertical $gap-horizontal;
   justify-content: center;
-  padding: 50px 40px;
+  padding: $catalog-padding-vertical $catalog-padding-horizontal;
 
   @include grid-columns(1);
 

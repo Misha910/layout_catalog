@@ -5,9 +5,9 @@
   &__star {
     display: flex;
 
-    width: 16px;
-    height: 16px;
-    margin-right: 4px;
+    width: $star-size;
+    height: $star-size;
+    gap: $star-gap;
 
     background-image: url('../images/star.svg');
     background-repeat: no-repeat;
